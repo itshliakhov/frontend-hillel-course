@@ -1,1 +1,1 @@
-# frontend-hillel-course
+# Front-End Pro Course | Hillel IT-School
