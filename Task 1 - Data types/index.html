@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hillel Homework #1</title>
+    <script>
+      /*Без присваивания значения undefined нельзя создать константу
+      Вылазит ошибка: "Missing initializer in const declaration"
+      */
+      const userName = "Daniil";
+      console.log("String:", userName, typeof userName);
+      const userAge = 17;
+      console.log("Number:", userAge, typeof userAge);
+      const favouriteNumber = 150n;
+      console.log("BigInt:", favouriteNumber, typeof favouriteNumber);
+      const isStudent = true;
+      console.log("Boolean", isStudent, typeof isStudent);
+      const userLocation = undefined;
+      console.log("Undefined:", userLocation, typeof userLocation);
+      const workExperience = null;
+      console.log("Null:", workExperience, typeof workExperience);
+      const favouriteSymbol = Symbol("dev");
+      console.log("Symbol:", favouriteSymbol, typeof favouriteSymbol);
+      const cupInfo = { value: 1, isHot: true, material: "ceramic" };
+      console.log("Object:", cupInfo, typeof cupInfo);
+    </script>
+  </head>
+  <body></body>
+</html>
